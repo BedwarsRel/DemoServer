@@ -1,0 +1,245 @@
+name: Demo
+world: Arena
+loc1:
+  world: Arena
+  x: -50.0
+  y: 0.0
+  z: -50.0
+  pitch: 0.0
+  yaw: 0.0
+loc2:
+  world: Arena
+  x: 50.0
+  y: 200.0
+  z: 50.0
+  pitch: 0.0
+  yaw: 0.0
+lobby:
+  world: Lobby
+  x: 0.5
+  y: 60.0
+  z: 0.5
+  pitch: 0.0
+  yaw: 0.0
+minplayers: 2
+record: 3600
+record-holders: []
+regionname: Demo
+time: 1000
+targetmaterial: BED_BLOCK
+builder: BedwarsRel-Team
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Arena
+    x: 1.5
+    y: 60.0
+    z: -17.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Arena
+    x: 18.5
+    y: 60.0
+    z: 1.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Arena
+    x: -0.5
+    y: 60.0
+    z: 18.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Arena
+    x: -17.5
+    y: 60.0
+    z: -0.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Arena
+    x: 0.5
+    y: 60.0
+    z: -17.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Arena
+    x: 18.5
+    y: 60.0
+    z: 0.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Arena
+    x: 0.5
+    y: 60.0
+    z: 18.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Arena
+    x: -17.5
+    y: 60.0
+    z: 0.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Arena
+    x: -0.5
+    y: 60.0
+    z: -17.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Arena
+    x: 18.5
+    y: 60.0
+    z: -0.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Arena
+    x: 1.5
+    y: 60.0
+    z: 18.5
+    pitch: 90.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Arena
+    x: -17.5
+    y: 60.0
+    z: 1.5
+    pitch: 90.0
+    yaw: 0.0
+teams:
+  Red:
+    ==: Team
+    bedfeed:
+      world: Arena
+      x: 21.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Arena
+      x: 20.5
+      y: 60.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 90.0
+    color: RED
+    name: Red
+    maxplayers: 4
+    bedhead:
+      world: Arena
+      x: 22.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+  Blue:
+    ==: Team
+    bedfeed:
+      world: Arena
+      x: 0.0
+      y: 60.0
+      z: -21.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Arena
+      x: 0.5
+      y: 60.0
+      z: -19.5
+      pitch: 0.0
+      yaw: 0.0
+    color: BLUE
+    name: Blue
+    maxplayers: 4
+    bedhead:
+      world: Arena
+      x: 0.0
+      y: 60.0
+      z: -22.0
+      pitch: 0.0
+      yaw: 0.0
+  Yellow:
+    ==: Team
+    bedfeed:
+      world: Arena
+      x: 0.0
+      y: 60.0
+      z: 21.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Arena
+      x: 0.5
+      y: 60.0
+      z: 20.5
+      pitch: 0.0
+      yaw: 180.0
+    color: YELLOW
+    name: Yellow
+    maxplayers: 4
+    bedhead:
+      world: Arena
+      x: 0.0
+      y: 60.0
+      z: 22.0
+      pitch: 0.0
+      yaw: 0.0
+  Green:
+    ==: Team
+    bedfeed:
+      world: Arena
+      x: -21.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Arena
+      x: -19.5
+      y: 60.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 270.0
+    color: GREEN
+    name: Green
+    maxplayers: 4
+    bedhead:
+      world: Arena
+      x: -22.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0

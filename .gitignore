@@ -1,0 +1,11 @@
+logs/
+
+*/playerdata/
+*/stats/
+*/uid.dat
+*/session.lock
+
+/*.json
+/*.txt
+/*.yml
+/*.jar
