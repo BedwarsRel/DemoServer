@@ -6,6 +6,9 @@ logs/
 */session.lock
 level.dat_old
 
+plugins/Updater/
+plugins/PluginMetrics/
+
 banned-ips.json
 banned-players.json
 commands.yml
